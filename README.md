@@ -1,3 +1,4 @@
+# Performance-Analysis-of-Your-Node
 To analyze your light node, you can use some of the following tools and methods:
 
 . Evaluate blockchain synchronization speed: Light node works by synchronizing a part of blockchain, so it is very important to evaluate blockchain synchronization speed. You can use a blockchain synchronization time measurement tool like Time To Sync to determine the synchronization time of a light node relative to the entire blockchain.
@@ -10,10 +11,10 @@ To analyze your light node, you can use some of the following tools and methods:
 
 . After analyzing your light node, you can make adjustments to optimize its performance. For example, you can upgrade your hardware to improve blockchain sync speed, or change network settings to reduce sync time.
 **
-To measure node performance, I use the following commands:
-"top": This command allows you to view information about your node's CPU and memory resources.
-"htop": This command is similar to "top", but gives you a graphical interface for easier viewing of CPU and memory resources.
-"nload": This command allows you to measure your node's network bandwidth.
-"ifstat": This command also allows you to measure the node's network bandwidth, but displays more detailed information about network interfaces.
-"free": This command allows you to view information about node.
-"df": This command allows you to view information about the disk space of node. To measure node performance in more detail, you can also use specialized tools like "Prometheus" or "Grafana" to monitor, analyze and visualize performance and resource metrics node's resource.
+# To measure node performance, I use the following commands:
+1. "top": This command allows you to view information about your node's CPU and memory resources.
+2. "htop": This command is similar to "top", but gives you a graphical interface for easier viewing of CPU and memory resources.
+3. "nload": This command allows you to measure your node's network bandwidth.
+4. "ifstat": This command also allows you to measure the node's network bandwidth, but displays more detailed information about network interfaces.
+5. "free": This command allows you to view information about node.
+6. "df": This command allows you to view information about the disk space of node. To measure node performance in more detail, you can also use specialized tools like "Prometheus" or "Grafana" to monitor, analyze and visualize performance and resource metrics node's resource.
